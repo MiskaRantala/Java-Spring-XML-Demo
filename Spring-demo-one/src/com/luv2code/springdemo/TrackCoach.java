@@ -23,6 +23,20 @@ public class TrackCoach implements Coach {
     // provide the info class wants to
     @Override
     public String getDailyFortune() {
+
         return "Lol no. " + fortuneService.getFortune();
     }
+
+    // add an init method
+    public void doMyStartupStuff() {
+        System.out.println(("TrackCoach: inside method Startup Stuff"));
+    }
+
+    // add a destroy method
+    public void doMyCleanupStuff() {
+        System.out.println(("TrackCoach: inside method Cleanup Stuff"));
+    }
+
+
+
 }
