@@ -10,11 +10,13 @@ public class BaseballCoach implements Coach {
         fortuneService = theFortuneService;
     }
 
+    // provide the info class wants to
     @Override
     public String getDailyWorkout() {
         return "Spend 30 minutes on batting practice.";
     }
 
+    // provide the info class wants to
     @Override
     public String getDailyFortune() {
 
